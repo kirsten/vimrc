@@ -63,3 +63,17 @@ autocmd BufWinLeave * call clearmatches()
 set list
 set listchars=tab:>-,trail:-
 
+" Navigate tabs using arrow keys
+nnoremap <silent> <C-t> :tabnew<cr>
+nnoremap <silent> <Right> gt
+nnoremap <silent> <Left> gT
+
+" ctrlp options
+let g:ctrlp_working_path_mode = 2
+let g:ctrlp_custom_ignore = '\.git$\|log$\|tmp\|node_modules$'
+
+" gist options
+let g:gist_post_private = 1
+let g:gist_detect_filetype = 1
+let g:gist_open_browser_after_post = 1
+

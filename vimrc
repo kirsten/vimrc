@@ -1,6 +1,7 @@
 set nocompatible
 
-execute pathogen#infect()
+call pathogen#infect()
+call pathogen#helptags()
 
 " Jump to the last line when the file was last loaded
 if has ("autocmd")
@@ -32,7 +33,7 @@ set hlsearch      " highlight matching search terms
 " Hidden
 set title         " todo: what does this actually do?
 set scrolloff=3   " always show 3 lines above & below cursor
-set nowrap        " don't wrap lines, duh
+set nowrap
 
 " Tabs
 set tabstop=2

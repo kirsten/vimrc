@@ -39,7 +39,7 @@ set tabstop=2
 set shiftwidth=2
 set softtabstop=2
 set expandtab
-set autoindent
+set smartindent
 
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start

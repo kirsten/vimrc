@@ -64,6 +64,11 @@ autocmd BufWinLeave * call clearmatches()
 set list
 set listchars=tab:>-,trail:-
 
+" Show tabs and make tab text easier to read
+set showtabline=2
+hi TabLineSel ctermbg=black
+hi TabLineSel ctermfg=DarkMagenta
+
 " Navigate tabs using arrow keys
 nnoremap <silent> <C-t> :tabnew<cr>
 nnoremap <silent> <Right> gt
@@ -77,4 +82,8 @@ let g:ctrlp_custom_ignore = '\.git$\|log$\|tmp\|node_modules$'
 let g:gist_post_private = 1
 let g:gist_detect_filetype = 1
 let g:gist_open_browser_after_post = 1
+
+syntax enable
+set background=dark
+colorscheme solarized
 

@@ -69,6 +69,9 @@ set showtabline=2
 hi TabLineSel ctermbg=black
 hi TabLineSel ctermfg=DarkMagenta
 
+" Mark column widths
+set colorcolumn=80,120
+
 " Navigate tabs using arrow keys
 nnoremap <silent> <C-t> :tabnew<cr>
 nnoremap <silent> <Right> gt

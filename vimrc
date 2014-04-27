@@ -86,6 +86,9 @@ let g:gist_post_private = 1
 let g:gist_detect_filetype = 1
 let g:gist_open_browser_after_post = 1
 
+" hamlc syntax highlighting
+au BufRead,BufNewFile *.hamlc set ft=haml
+
 syntax enable
 set background=dark
 colorscheme solarized

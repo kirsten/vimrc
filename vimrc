@@ -89,6 +89,11 @@ let g:gist_open_browser_after_post = 1
 " hamlc syntax highlighting
 au BufRead,BufNewFile *.hamlc set ft=haml
 
+" JSON template syntax highlighting
+:autocmd BufRead,BufNewFile *.item set filetype=html
+:autocmd BufRead,BufNewFile *.list set filetype=html
+:autocmd BufRead,BufNewFile *.block set filetype=html
+
 syntax enable
 set background=dark
 colorscheme solarized

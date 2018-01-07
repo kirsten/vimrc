@@ -77,6 +77,12 @@ nnoremap <silent> <C-t> :tabnew<cr>
 nnoremap <silent> <Right> gt
 nnoremap <silent> <Left> gT
 
+" Easier split navigations
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
 " ctrlp options
 let g:ctrlp_working_path_mode = 2
 let g:ctrlp_custom_ignore = '\.git$\|log$\|tmp\|node_modules$'

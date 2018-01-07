@@ -83,6 +83,10 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
+" More escapes
+inoremap jj <ESC>
+inoremap jk <ESC>
+
 " ctrlp options
 let g:ctrlp_working_path_mode = 2
 let g:ctrlp_custom_ignore = '\.git$\|log$\|tmp\|node_modules$'

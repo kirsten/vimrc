@@ -72,6 +72,8 @@ hi TabLineSel ctermfg=DarkMagenta
 " Mark column widths
 set colorcolumn=80,120
 
+map \ :NERDTreeToggle<CR>
+
 " Navigate tabs using arrow keys
 nnoremap <silent> <C-t> :tabnew<cr>
 nnoremap <silent> <Right> gt

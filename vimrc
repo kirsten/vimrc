@@ -15,6 +15,7 @@ Plug 'mustache/vim-mustache-handlebars'
 Plug 'tpope/vim-surround'
 Plug 'scrooloose/nerdtree'
 Plug 'w0rp/ale'
+Plug 'junegunn/goyo.vim'
 
 call plug#end()
 

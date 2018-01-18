@@ -1,7 +1,22 @@
 set nocompatible
 
-call pathogen#infect()
-call pathogen#helptags()
+call plug#begin('~/.vim/plugged')
+
+Plug 'mattn/webapi-vim'
+Plug 'mattn/gist-vim'
+Plug 'kien/ctrlp.vim'
+Plug 'kchmck/vim-coffee-script'
+Plug 'tpope/vim-rails'
+Plug 'tpope/vim-bundler'
+Plug 'mileszs/ack.vim'
+Plug 'groenewege/vim-less'
+Plug 'altercation/vim-colors-solarized'
+Plug 'mustache/vim-mustache-handlebars'
+Plug 'tpope/vim-surround'
+Plug 'scrooloose/nerdtree'
+Plug 'w0rp/ale'
+
+call plug#end()
 
 " Jump to the last line when the file was last loaded
 if has ("autocmd")

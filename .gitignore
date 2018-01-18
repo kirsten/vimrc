@@ -2,4 +2,5 @@
 backup/*
 bundle/*/docs/tags
 tags/*
+plugged
 

@@ -2,20 +2,21 @@ set nocompatible
 
 call plug#begin('~/.vim/plugged')
 
-Plug 'mattn/webapi-vim'
-Plug 'mattn/gist-vim'
-Plug 'kien/ctrlp.vim'
-Plug 'kchmck/vim-coffee-script'
-Plug 'tpope/vim-rails'
-Plug 'tpope/vim-bundler'
-Plug 'mileszs/ack.vim'
-Plug 'groenewege/vim-less'
 Plug 'altercation/vim-colors-solarized'
-Plug 'mustache/vim-mustache-handlebars'
-Plug 'tpope/vim-surround'
-Plug 'scrooloose/nerdtree'
-Plug 'w0rp/ale'
+Plug 'groenewege/vim-less'
 Plug 'junegunn/goyo.vim'
+Plug 'kchmck/vim-coffee-script'
+Plug 'kien/ctrlp.vim'
+Plug 'mattn/gist-vim'
+Plug 'mattn/webapi-vim'
+Plug 'mileszs/ack.vim'
+Plug 'mustache/vim-mustache-handlebars'
+Plug 'scrooloose/nerdtree'
+Plug 'tpope/vim-bundler'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-rails'
+Plug 'tpope/vim-surround'
+Plug 'w0rp/ale'
 
 call plug#end()
 

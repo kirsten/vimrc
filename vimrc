@@ -89,8 +89,6 @@ hi TabLineSel ctermfg=DarkMagenta
 " Mark column widths
 set colorcolumn=80,120
 
-map \ :NERDTreeToggle<CR>
-
 " Navigate tabs using arrow keys
 nnoremap <silent> <C-t> :tabnew<cr>
 nnoremap <silent> <Right> gt
@@ -106,9 +104,13 @@ nnoremap <C-H> <C-W><C-H>
 inoremap jj <ESC>
 inoremap jk <ESC>
 
+" nerdtree options
+map \ :NERDTreeToggle<CR>
+let NERDTreeShowHidden=1
+
 " ctrlp options
 let g:ctrlp_working_path_mode = 2
-let g:ctrlp_custom_ignore = '\.git$\|log$\|tmp\|node_modules$'
+let g:ctrlp_custom_ignore = '\.git$\|log$\|tmp\|public\|node_modules$'
 
 " gist options
 let g:gist_post_private = 1

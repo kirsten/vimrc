@@ -7,7 +7,6 @@ Plug 'groenewege/vim-less'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/goyo.vim'
 Plug 'kchmck/vim-coffee-script'
-Plug 'kien/ctrlp.vim'
 Plug 'mattn/gist-vim'
 Plug 'mattn/webapi-vim'
 Plug 'mustache/vim-mustache-handlebars'
@@ -109,9 +108,8 @@ inoremap jk <ESC>
 map \ :NERDTreeToggle<CR>
 let NERDTreeShowHidden=1
 
-" ctrlp options
-let g:ctrlp_working_path_mode = 2
-let g:ctrlp_custom_ignore = '\.git$\|log$\|tmp\|public\|node_modules$'
+" FZF
+map <C-P> :FZF<Enter>
 
 " gist options
 let g:gist_post_private = 1

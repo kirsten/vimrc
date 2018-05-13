@@ -6,12 +6,14 @@ Plug 'altercation/vim-colors-solarized'
 Plug 'elixir-editors/vim-elixir'
 Plug 'ervandew/supertab'
 Plug 'groenewege/vim-less'
+Plug 'janko-m/vim-test'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/goyo.vim'
 Plug 'kchmck/vim-coffee-script'
 Plug 'mattn/gist-vim'
 Plug 'mattn/webapi-vim'
 Plug 'mustache/vim-mustache-handlebars'
+Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree'
 Plug 'slim-template/vim-slim'
 Plug 'tpope/vim-bundler'
@@ -110,6 +112,11 @@ inoremap jk <ESC>
 " nerdtree options
 map \ :NERDTreeToggle<CR>
 let NERDTreeShowHidden=1
+
+" nerdcommenter options
+let g:NERDSpaceDelims = 1
+let g:NERDDefaultAlign = 'left'
+let g:NERDCommentEmptyLines = 1
 
 " FZF
 map <C-P> :FZF<Enter>

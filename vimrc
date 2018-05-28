@@ -126,6 +126,12 @@ let g:gist_post_private = 1
 let g:gist_detect_filetype = 1
 let g:gist_open_browser_after_post = 1
 
+" ale
+
+let g:ale_linters = {
+\  'ruby': ['rubocop'],
+\}
+
 " hamlc syntax highlighting
 au BufRead,BufNewFile *.hamlc set ft=haml
 
